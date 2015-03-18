@@ -12,7 +12,7 @@ end
 
 Chef::Log.info 'Installing composer.'
 execute "composer install" do
-  command "composer install && touch /var/log/.php_composer_installed"
+  command "/usr/local/bin/composer install && touch /var/log/.php_composer_installed"
   creates "/var/log/.php_composer_installed"
   action :run
 end
