@@ -1,0 +1,497 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"return",
+				"returndata"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"isNu",
+				"is_numeric"
+			],
+			[
+				"field",
+				"field_types"
+			],
+			[
+				"public",
+				"public_path"
+			],
+			[
+				"attribute",
+				"attributeName"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"attri",
+				"attributeName"
+			],
+			[
+				"att",
+				"attributeName"
+			],
+			[
+				"nat",
+				"nativeFieldTypes"
+			],
+			[
+				"retur",
+				"returnArray"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"select",
+				"select2_1"
+			],
+			[
+				"tenan",
+				"tenant_client"
+			],
+			[
+				"Pl",
+				"placeholder"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"dis",
+				"dissociate"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"artisan cl",
+				"Laravel Artisan: Clear Compiled"
+			],
+			[
+				"laravel com",
+				"Laravel Artisan: Clear Compiled"
+			],
+			[
+				"generat",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"lara",
+				"Laravel Artisan: Help"
+			],
+			[
+				"laravel g",
+				"Laravel Generate: Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/john/Documents/dev/opsworks-cookbooks"
+	],
+	"file_history":
+	[
+		"/Users/john/Documents/Aptana/cre-pro/app/models/FieldType_john.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fieldtype/form.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/field/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/site/layouts/default.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/css/admin/custom.css",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/field/form.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/local/database.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/controllers.js",
+		"/Users/john/Documents/Aptana/cre-pro/app/events/ProposalEvent.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/observers/ProposalObserver.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/FieldTypeController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/FieldType.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/Field.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/routes.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/TermController.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/services.js",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/form.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/create/tabs.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/response.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/create/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/tabs.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/site/layouts/sidemenu.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/create/terms.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/css/front/animate.css",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/ProposalsController.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/app.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/directives.js",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiProposalController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/Term.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/Proposal.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/ProposalTerm.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/custom_terms.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiProposalTermsController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiTermController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/site/layouts/sidemenu.old.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/add.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/admin/layouts/default.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/ProposalTermController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/FieldController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fieldtype/show.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/library/Crepro/Helpers/Attributes.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/field/show.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/field/submit.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/rfp.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/create.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fieldtype/create.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiFieldController.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/partials/inputFormField.html",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/partials/selectFormField.html",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/User.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/user/UserController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/site/user/login.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/toan/app.php",
+		"/Users/john/Documents/Aptana/cre-pro/composer.json",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/app.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/my_routes.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/local/app.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/oauth-4-laravel.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/local/oauth-4-laravel.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/config/toan/oauth-4-laravel.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/artdarek/oauth-4-laravel/src/Artdarek/OAuth/OAuth.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/filters.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput-angular.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/bower_components/bootstrap-tagsinput/src/bootstrap-tagsinput.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/bower_components/bootstrap-tagsinput/src/bootstrap-tagsinput-angular.js",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiFieldTypeController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/admin/admin_tabs.blade.php",
+		"/Users/john/Desktop/example.html",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/TermComment.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiTermsController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/create.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fieldtype/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/library/Andrew13/Helpers/String.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/partials/formfield.html",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/Field.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fieldtype/edit.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/admin_tabs.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/show.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fields/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fields/show.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/services/proposalService.js",
+		"/Users/john/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/api/ApiUserController.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/controllers/crepro.proposalController.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/js/services/crepro.proposalService.js",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/john_response.blade.php",
+		"/Users/john/Downloads/Starting_Block_Package-1.3/README",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/brokers/register.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/agents/register.blade.php",
+		"/Users/john/Documents/eclipse/plmsCertificates/build/_distrib_/deploy.out",
+		"/Users/john/Downloads/bb-manifest-plugin.xsd",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/TermsController.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fields/create.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fields/form.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/proposals/angular_response.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/routes_save.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/models/Content.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/error.html",
+		"/Users/john/Documents/Aptana/cre-pro/app/controllers/ApiController.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Traits/FormerObject.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Form/Fields/Hidden.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Form/Fields/Input.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Traits/Field.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/CrePro/extensions/blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/start/global.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/storage/views/0c2a7acc254599bf0e3486b9a79a30be",
+		"/Users/john/Documents/Aptana/cre-pro/app/storage/views/2825f4f49c03bbff1b2eef48ff459922",
+		"/Users/john/Documents/Aptana/cre-pro/app/storage/views/a8d601cdd1e2097d2a882741c779a325",
+		"/Users/john/Documents/Aptana/cre-pro/app/storage/views/52a7229f2113ee005940980d1ae1d385",
+		"/Users/john/Documents/Aptana/cre-pro/app/storage/views/069d78a6dd932664eaa781f74d0afd06",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/composer.json",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Form/Form.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/routes_old.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/routes_new.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/admin/roles/edit.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/admin/users/create_edit.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/admin/roles/create.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/admin/users/index.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/components/forms_elements_select2/select2.init.js",
+		"/Users/john/Documents/Aptana/cre-pro/public/assets/components/forms_elements_inputmask/inputmask.init.js",
+		"/Users/john/Documents/Aptana/cre-pro/app/CrePro/extensions/blade_extension.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Form/Elements.php",
+		"/Users/john/Documents/Aptana/cre-pro/vendor/anahkiasen/former/src/Former/Former.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/fields/edit.blade.php",
+		"/Users/john/Documents/Aptana/cre-pro/app/views/terms/business.blade.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"UpdateTermField",
+			"TermCtrl",
+			"AddPro",
+			"push",
+			"size",
+			"columnWidth",
+			"colSize",
+			"\">",
+			"html",
+			"$",
+			"bootstrap-iconpicker",
+			"bower",
+			"js",
+			"addGroupClass",
+			"input",
+			"text",
+			"bower",
+			"field_id",
+			"hasMany",
+			"terms.store",
+			"field",
+			"'",
+			"field",
+			"Exception",
+			"OAuth",
+			"options.itemValue",
+			"itemVal",
+			"objectItems",
+			"tagsinput(",
+			"ptions",
+			"tagsinput",
+			"attrs",
+			"itemValue",
+			"objectItems",
+			"itemValue",
+			"build",
+			"attrs",
+			"item",
+			"options",
+			"value",
+			"[]",
+			"form",
+			"attributes",
+			"form",
+			"name",
+			"[]",
+			"options",
+			"field",
+			"fieldTypeId",
+			"FieldTypeInfo",
+			"bootstrap",
+			"bootstrapnnn",
+			"bootstrap",
+			"angular",
+			"value",
+			"css",
+			"directives",
+			"css",
+			"removeAmpersand",
+			"former",
+			"andrew",
+			"substr",
+			"$routeParams",
+			"DataType",
+			"termAnimations",
+			"crepro",
+			"TermsController",
+			"js",
+			"admin",
+			"myAttributesToArray",
+			"URL",
+			"render",
+			"class",
+			"addClass",
+			"class",
+			"element",
+			"addClassesTo",
+			"class",
+			"index",
+			"phpinfo",
+			"ignore",
+			"vintage_start",
+			"This page",
+			"Since",
+			"tarrani"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "opsworks.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"modal",
+				"app/views/admin/layouts/modal.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
