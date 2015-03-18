@@ -7,7 +7,6 @@ bash "install_composer" do
     mv composer.phar /usr/local/bin/composer
     chown ubuntu:ubuntu /usr/local/bin/composer
   EOH
-  not_if "test -d /home/ubuntu"
 end
 
 Chef::Log.info 'Installing composer.'
