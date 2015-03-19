@@ -5,7 +5,8 @@ bash "install_composer" do
   code <<-EOH
     curl -sS https://getcomposer.org/installer | php
     mv composer.phar /usr/local/bin/composer
-    chown ubuntu:ubuntu /usr/local/bin/composer
+    touch /home/ubuntu/composer.json
+    chown ubuntu:ubuntu /home/ubuntu/composer.json
   EOH
 end
 
