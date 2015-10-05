@@ -1,35 +1,75 @@
-opsworks-cookbooks
+nfsserver Cookbook
 ==================
+sets up the dete nfs server 
 
-**These are the standard Chef cookbooks used by AWS OpsWorks.**
+eg.
 
-If you want to override any template (like the Rails database.yml or the Apache
-vhost definition), this is the place to look for the originals.
+creates /web/sites/html, /web/sites/apps, /web/configs/managed
+if they do not exist
 
-Branches for current Chef versions
-----------------------------------
+creates default files
 
-These branches are currently used by OpsWorks on your instance.
-
-- **Chef 11.10**: [release-chef-11.10](https://github.com/aws/opsworks-cookbooks/tree/release-chef-11.10)
-- **Chef 11.4**: [release-chef-11.4](https://github.com/aws/opsworks-cookbooks/tree/release-chef-11.4)
-- **Chef 0.9**: [release-chef-0.9](https://github.com/aws/opsworks-cookbooks/tree/release-chef-0.9)
-
-Upcoming changes
-----------------
-
-These branches reflect the upcoming changes for the next release.
-
-- **Chef 11.10**: [master-chef-11.10](https://github.com/aws/opsworks-cookbooks/tree/master-chef-11.10)
-- **Chef 11.4**: [master-chef-11.4](https://github.com/aws/opsworks-cookbooks/tree/master-chef-11.4)
-- **Chef 0.9**: [master-chef-0.9](https://github.com/aws/opsworks-cookbooks/tree/master-chef-0.9)
+exports /web
 
 
-The `master` branch is no longer used since AWS OpsWorks supports multiple
-configuration managers now.
+Requirements
+------------
+TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
-See also <https://aws.amazon.com/opsworks/>
+e.g.
+#### packages
+- `toaster` - nfsserver needs toaster to brown your bagel.
 
-LICENSE: Unless otherwise stated, cookbooks/recipes originated by Amazon Web Services are licensed
-under the [Apache 2.0 license](http://aws.amazon.com/apache2.0/). See the LICENSE file. Some files
-are just imported and authored by others. Their license will of course apply.
+Attributes
+----------
+TODO: List you cookbook attributes here.
+
+e.g.
+#### nfsserver::default
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Default</th>
+  </tr>
+  <tr>
+    <td><tt>['nfsserver']['bacon']</tt></td>
+    <td>Boolean</td>
+    <td>whether to include bacon</td>
+    <td><tt>true</tt></td>
+  </tr>
+</table>
+
+Usage
+-----
+#### nfsserver::default
+TODO: Write usage instructions for each cookbook.
+
+e.g.
+Just include `nfsserver` in your node's `run_list`:
+
+```json
+{
+  "name":"my_node",
+  "run_list": [
+    "recipe[nfsserver]"
+  ]
+}
+```
+
+Contributing
+------------
+TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
+
+e.g.
+1. Fork the repository on Github
+2. Create a named feature branch (like `add_component_x`)
+3. Write you change
+4. Write tests for your change (if applicable)
+5. Run the tests, ensuring they all pass
+6. Submit a Pull Request using Github
+
+License and Authors
+-------------------
+Authors: TODO: List authors
