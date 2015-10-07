@@ -5,21 +5,21 @@ php_fpm_service_name = "php-fpm"
 # php-pecl-apc tends to throw segfaults, use "pecl install apc" instead
 # pre-install following packages to support proper php-fpm
 packages = [
-  'php54',
-  'php54-fpm',
-  'php54-devel',
-  'php54-common',
+  'php56',
+  'php56-fpm',
+  'php56-devel',
+  'php56-common',
   'pcre-devel',
   'mysql',
-  'php54-xml',
-  'php54-xmlrpc',
-  'php54-gd',
-  'php54-cli',
-  'php54-mysql',
-  'php54-mcrypt',
-  'php54-soap',
-  'php54-pecl-memcached',
-  'php54-mbstring'
+  'php56-xml',
+  'php56-xmlrpc',
+  'php56-gd',
+  'php56-cli',
+  'php56-mysql',
+  'php56-mcrypt',
+  'php56-soap',
+  'php56-pecl-memcached',
+  'php56-mbstring'
 ]
 
 # install all the packages
