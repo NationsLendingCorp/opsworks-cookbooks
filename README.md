@@ -57,6 +57,21 @@ Just include `nfsserver` in your node's `run_list`:
   ]
 }
 ```
+### 2.2 Configure custom Chef recipes
+Create *Layer* with short name *nginx* and type is *custom*
+
+Configure following recipes:
+
+1. Setup: **php-fpm**, **server::swap**
+2. Configure: **php-fpm**, **cms::config**
+3. Deploy: **deploy::nginx**
+4. Undeploy: **deploy::nginx-undeploy**
+5. Shutdown: **php-fpm::stop**
+
+If server does not need swap, you can omit _server::swap_
+
+Custom recipes will be executed right after built-in recipes are installed.
+
 
 Contributing
 ------------
