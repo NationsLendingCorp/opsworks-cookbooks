@@ -2,7 +2,16 @@
 include_recipe "nginx"
 
 php_fpm_service_name = "php-fpm"
+packages = [
+  'php56'
+]
 
+# install all the packages
+packages.each do |up_package|
+  package up_package do
+    action :upgrade
+  end
+end
 
 # prepare default optimization params for each of CMS site
 template "/etc/nginx/default-params" do
