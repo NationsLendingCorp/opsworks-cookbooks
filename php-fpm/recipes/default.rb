@@ -2,31 +2,7 @@
 include_recipe "nginx"
 
 php_fpm_service_name = "php-fpm"
-# php-pecl-apc tends to throw segfaults, use "pecl install apc" instead
-# pre-install following packages to support proper php-fpm
-packages = [
-  'php56',
-  'php56-fpm',
-  'php56-devel',
-  'php56-common',
-  'pcre-devel',
-  'mysql',
-  'php56-xml',
-  'php56-xmlrpc',
-  'php56-gd',
-  'php56-cli',
-  'php56-mcrypt',
-  'php56-soap',
-  'php56-pecl-memcached',
-  'php56-mbstring'
-]
 
-# install all the packages
-packages.each do |up_package|
-  package up_package do
-    action :upgrade
-  end
-end
 
 # prepare default optimization params for each of CMS site
 template "/etc/nginx/default-params" do
@@ -82,14 +58,7 @@ bash "tcp_keepalive_time" do
   EOH
 end
 
-# stop sendmail service
-bash "stop_and_disable_sendmail" do
-  user "root"
-  code <<-EOH
-    chkconfig sendmail off
-    service sendmail stop
-  EOH
-end
+
 
 include_recipe "php-fpm::phpsettings"
 
