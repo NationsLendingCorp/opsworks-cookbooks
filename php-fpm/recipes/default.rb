@@ -15,7 +15,6 @@ packages = [
   'php56-xmlrpc',
   'php56-gd',
   'php56-cli',
-  'php56-mysql',
   'php56-mcrypt',
   'php56-soap',
   'php56-pecl-memcached',
