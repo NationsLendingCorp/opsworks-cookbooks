@@ -1,5 +1,5 @@
 node[:deploy].each do |application, deploy|
-  if deploy[:application_type] != 'php'
+  if deploy[:application_type] != 'php' && deploy[:application_type] != 'php-nginx'
     Chef::Log.debug("Skipping composer::configure application #{application} as it is not an PHP app")
     next
   end
