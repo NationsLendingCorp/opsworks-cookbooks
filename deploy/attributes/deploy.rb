@@ -48,7 +48,6 @@ when 'centos','redhat','fedora','amazon'
   else
     default[:opsworks][:deploy_user][:group] = 'apache'
   end
-  default[:opsworks][:deploy_user][:group] = node['opsworks']['rails_stack']['name'] == 'nginx_unicorn' ? 'nginx' : 'apache'
 end
 
 default[:opsworks][:rails][:ignore_bundler_groups] = ['test', 'development']
